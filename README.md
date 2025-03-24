@@ -9,12 +9,13 @@ Este projeto consiste em um backend desenvolvido com .NET 6 e Entity Framework C
 ### Passos para configuração:
 1. **Clone o repositório**:
 git clone https://github.com/seu-repositorio/backend.git
-cd backend
+cd leads-management
 Configure o banco de dados:
 Verifique o arquivo appsettings.json para configurar a string de conexão com o banco de dados.
 Execute as migrações do Entity Framework Core:
 dotnet ef database update
 Inicie o servidor:
+cd API
 dotnet run
 O servidor estará disponível em http://localhost:5000 (ou outra porta configurada).
 
@@ -25,9 +26,6 @@ Após clonar o repositório no passo anterior, navegue até a pasta do frontend:
 cd frontend
 Instale as dependências:
 npm install
-Configure o arquivo .env:
-Adicione a URL base da API no arquivo .env. Exemplo:
-REACT_APP_API_URL=http://localhost:5000
 Inicie o servidor de desenvolvimento:
 npm start
 O frontend estará disponível em http://localhost:3000.
