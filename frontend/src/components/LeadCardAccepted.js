@@ -8,7 +8,7 @@ return (
     <div className="lead-header">
       <div className="lead-avatar">{lead.firstName.charAt(0)}</div>
       <div className="lead-info">
-        <h3>{lead.firstName}</h3>
+      <h3>{`${lead.firstName} ${lead.lastName}`}</h3>
         <p>{new Date().toLocaleDateString()} @ {new Date().toLocaleTimeString()}</p>
       </div>
     </div>
