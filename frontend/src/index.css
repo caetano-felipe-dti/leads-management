@@ -1,0 +1,168 @@
+.lead-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.lead-card>div {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.lead-card>div:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.lead-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.lead-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f57c00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.lead-info h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.lead-info p {
+  margin: 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.lead-details {
+  margin-bottom: 12px;
+}
+
+.lead-details p {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.lead-description p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.icon {
+  margin-right: -10px;
+  font-size: 16px;
+}
+
+.icon-footer {
+  margin-right: -16px;
+  font-size: 16px;
+  color: #57524d;
+}
+
+.lead-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  width: 400px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-accept {
+  background-color: #f57c00;
+  color: #fff;
+}
+
+.btn-decline {
+  background-color: #eee;
+  color: #555;
+}
+
+.price-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.price-text {
+  font-size: 14px;
+  color: #888;
+  margin-left: 4px;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 16px;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.active-tab {
+  border-bottom: 2px solid #f57c00;
+  color: #f57c00;
+}
+
+.lead-card.accepted .contact-info {
+  font-size: 14px;
+  color: #555;
+}
+
+.lead-card.accepted .contact-info p {
+  margin: 5px 0;
+}
+
+.lead-contact {
+  display: flex;
+  font-size: 14px;
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.lead-contact p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
