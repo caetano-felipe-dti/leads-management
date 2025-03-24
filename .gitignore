@@ -60,3 +60,5 @@ _ReSharper*/
 *.idea/
 /LeadsManagement/Pages
 /API/Properties/launchSettings.json
+
+!frontend/
