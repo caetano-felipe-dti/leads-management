@@ -62,3 +62,4 @@ _ReSharper*/
 /API/Properties/launchSettings.json
 
 !frontend/
+/frontend/node_modules
