@@ -1,0 +1,62 @@
+# Ignorar configurações do Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Ignorar arquivos temporários do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar builds e artefatos gerados pelo Visual Studio
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ww][Ii][Nn]32/
+
+# Ignorar pacotes NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tlog
+*.idb
+*.pdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Ignorar arquivos de cache e temporários do sistema
+[Tt]emp/
+*.tmp
+
+# Ignorar arquivos de publicação
+publish/
+*.publishsettings
+
+# Ignorar arquivos gerados por extensões
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Ignorar arquivos de backup
+*.bak
+*.swp
+*~
+
+# Ignorar binários e intermediários
+[Bb]in/
+[Oo]bj/
+
+# Ignorar arquivos gerados pelo Rider (JetBrains)
+.idea/
+*.idea/
+/LeadsManagement/Pages
+/API/Properties/launchSettings.json
